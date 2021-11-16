@@ -62,17 +62,50 @@ li:nth-child(4) {
   background-color: var(--yellowcolor);
 }
 /* section1 */
-.right-div {
+.section-one {
+  display: flex;
+  justify-content: space-between;
+}
+.left-div {
     max-width: 605px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items:baseline;
     margin-top: 135px;
+    margin-left: 78px;
 }
-.right-title {
+.left-title {
     font-size: 71px;
     font-family: 'Baloo 2', cursive;
 }
 .food {
     color: #F8A22F;
+}
+.left-text {
+  font-size: 26px;
+  color: #242424;
+  opacity: 50%;
+  margin-top: 41px;
+}
+.order {
+  color: var(--whitecolor);
+  font-size: 22px;
+}
+.click-div {
+  background-color: var(--yellowcolor);
+  width: 232px;
+  height: 64px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.right-div {
+  max-width: 610px;
+  width: 100%;
+}
+.pizza-one {
+  width: 100%;
 }
