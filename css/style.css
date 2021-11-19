@@ -9,10 +9,48 @@
 .logo {
   width: 90px;
 }
+
+.t:hover {
+  color: #7e0516;
+}
+.a:hover {
+  color: darkgreen;
+}
+.s:hover {
+  color: blue;
+}
+.e:hover {
+  color:deeppink;
+}
+.f:hover {
+  color: lightseagreen;
+}
+.p:hover {
+  color:magenta ;
+}
+.i:hover {
+  color: red;
+}
+.z:hover {
+  color: turquoise;
+}
+.z-two:hover {
+  color: cornsilk;
+}
+.a:hover {
+  color: greenyellow;
+}
+.o:hover {
+  color:lightslategray;
+}
+.f-two:hover {
+  color: lightcoral;
+}
+
 .taste,
 .f,
 .pizza {
-  font-size: 43px;
+  font-size: 55px;
   font-family: "Road Rage", cursive;
   color: var(--whitecolor);
 }
@@ -46,7 +84,7 @@
   font-size: 24px;
   font-family: "Road Rage", cursive;
 }
-li:last-child {
+.lists:nth-child(3) {
   margin-right: 0;
   border-style: solid;
   border-width: 2px;
@@ -99,6 +137,7 @@ li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .right-div {
   max-width: 582px;
@@ -129,6 +168,7 @@ li:last-child {
   max-width: 650px;
   width: 100%;
   margin-top: 35px;
+  margin-bottom: 35px;
 }
 .ourfood-pic {
   width: 100%;
@@ -139,8 +179,7 @@ li:last-child {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 35px;
-  margin: auto 0;
+  margin: 35px auto;
 }
 .first-title {
   font-size: 40px;
@@ -151,6 +190,7 @@ li:last-child {
   background-color: #f8a22f;
   border-radius: 100px;
   margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .small-div-one {
   max-width: 218px;
@@ -179,9 +219,15 @@ li:last-child {
 .text-one {
   font-size: 20px;
 }
-.click {
-  width: 30px;
-  height: 30px;
+.click-one {
+  width: 35px;
+  height: 35px;
+  background-color: var(--yellowcolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .description-one {
   font-size: 15px;
@@ -198,23 +244,13 @@ li:last-child {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /* plans */
 .plan-section {
   background-image: url(../images/pizzas.png);
-  padding-top: 50px;
-}
-.plans-div {
-  max-width: 1920px;
-  width: 100%;
-  height: 300px;
-  background-image: url(../images/pizzas.png);
-  background-repeat: no-repeat;
-  background-color: var(--yellowcolor);
-  color: #f8a22f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .div-plan-line {
   display: flex;
@@ -242,21 +278,21 @@ li:last-child {
 .map-contacts-div {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  align-items: flex-end;
+  padding-top: 15px;
   background-image: url(../images/pizzas.png);
 }
 .contact-big-div {
-  max-width: 330px;
-  width: 100%px;
-  height: 380px;
-  opacity: 100%;
+  width: 330px;
+  height: 550px;
   background-color: var(--yellowcolor);
   border-radius: 20px;
   background-image: url(../images/pizzas.png);
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .input-one,
 .textarea-element,
@@ -264,8 +300,10 @@ li:last-child {
   width: 280px;
   height: 45px;
   outline: none;
+  border-style: none;
   border-radius: 10px;
-  margin-top: 15px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .textarea-element {
   height: 120px;
@@ -277,6 +315,7 @@ li:last-child {
   max-width: 200px;
   width: 100%;
   height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .first-lbl {
   margin-top: 20px;
