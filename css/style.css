@@ -124,10 +124,12 @@
   font-size: 26px;
   color: #242424;
   opacity: 50%;
+  font-family: "Baloo 2", cursive;
 }
 .order {
   color: var(--whitecolor);
   font-size: 22px;
+  font-family: "Baloo 2", cursive;
 }
 .click-div {
   background-color: var(--yellowcolor);
@@ -159,6 +161,7 @@
   width: 70%;
 }
 /* ourfood section */
+
 .ourfood-section {
   display: flex;
   justify-content: space-between;
@@ -245,6 +248,11 @@
   align-items: center;
   margin-top: 40px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s linear ;
+}
+.click-div-second:hover {
+  background-color: burlywood;
+  cursor: pointer;
 }
 /* plans */
 .plan-section {
