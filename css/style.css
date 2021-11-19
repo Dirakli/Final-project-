@@ -46,7 +46,7 @@
   font-size: 24px;
   font-family: "Road Rage", cursive;
 }
-li:nth-child(4) {
+li:last-child {
   margin-right: 0;
   border-style: solid;
   border-width: 2px;
@@ -65,6 +65,7 @@ li:nth-child(4) {
 .section-div {
   display: flex;
   justify-content: space-between;
+  background-image: url(../images/pizzas.png);
 }
 .left-div {
   max-width: 650px;
@@ -122,6 +123,7 @@ li:nth-child(4) {
 .ourfood-section {
   display: flex;
   justify-content: space-between;
+  background-image: url(../images/pizzas.png);
 }
 .leftdiv {
   max-width: 650px;
@@ -198,6 +200,10 @@ li:nth-child(4) {
   margin-top: 40px;
 }
 /* plans */
+.plan-section {
+  background-image: url(../images/pizzas.png);
+  padding-top: 50px;
+}
 .plans-div {
   max-width: 1920px;
   width: 100%;
@@ -226,9 +232,119 @@ li:nth-child(4) {
 }
 .pizzaone,
 .pizzatwo {
-  width: 40%;
+  width: 35%;
 }
 .big-div {
   display: flex;
   justify-content: space-around;
 }
+/* contact */
+.map-contacts-div {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-image: url(../images/pizzas.png);
+}
+.contact-big-div {
+  max-width: 330px;
+  width: 100%px;
+  height: 380px;
+  opacity: 100%;
+  background-color: var(--yellowcolor);
+  border-radius: 20px;
+  background-image: url(../images/pizzas.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-one,
+.textarea-element,
+.button-div {
+  width: 280px;
+  height: 45px;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.textarea-element {
+  height: 120px;
+}
+.textarea-element:focus {
+  outline: none;
+}
+.button-div {
+  max-width: 200px;
+  width: 100%;
+  height: 50px;
+}
+.first-lbl {
+  margin-top: 20px;
+}
+
+/* hintdiv */
+.hint-div {
+  width: 290px;
+  height: 170px;
+  background-image: url(../images/Union\ 34.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  margin-left: 370px;
+}
+.smallpic {
+  width: 90px;
+}
+.allinone {
+  font-size: 11px;
+  color: black;
+}
+li {
+  margin-top: 5px;
+}
+/* footer */
+.footer-div {
+  background-color: black;
+  max-width: 1920px;
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/Mask\ Group\ 5.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 75px;
+}
+.footer-title {
+  font-size: 43px;
+  color: var(--yellowcolor);
+  font-family: "Road Rage", cursive;
+}
+.all {
+  font-size: 15px;
+  color: var(--whitecolor);
+}
+.three-titles {
+  font-size: 17px;
+  color: var(--whitecolor);
+}
+.li-last {
+  margin-top: 15px;
+}
+.icons-div {
+  display: flex;
+  margin-top: 10px;
+}
+.facebook,
+.twitter,
+.google,
+.instagram {
+  width: 19px;
+  height: 19px;
+  margin-left: 15px;
+}
+.facebook {
+  margin-left: 0;
+}
+
